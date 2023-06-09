@@ -1,0 +1,40 @@
+// Создать страницу, которая спрашивает имя у пользователя 
+// и выводит его с помощью функции.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+const name = prompt('Введите Ваше имя');
+
+function helloFn(name){
+    alert(`Привет, ${name}!`);
+}
+
+switch (name) {
+    case 'Катя':
+        helloFn(name);
+        break;
+    case 'Вася':
+        helloFn(name) 
+        break; 
+    case 'Нина':   
+        helloFn(name) 
+        break;
+
+    default:
+        alert('Мы не знаем кто вы и что Вам делать');
+        break;
+}
+
+    </script>   
+</body>
+
+</html>
